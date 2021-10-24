@@ -1331,6 +1331,11 @@ foreach@^2.0.5:
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
   integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
+foundation-sites@^6.7.3:
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.7.3.tgz#e6e298ef720a7569d874c48ee83fd855409333c2"
+  integrity sha512-HgQA6iUQTEkRSeNwiRQH2PvTXkXGBfBpRS6CTm2auhKpyU4Tea7so3IPKrazSciE7nyv1Vp9WNKdH9fBPLbGeA==
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
