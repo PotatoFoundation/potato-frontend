@@ -1,12 +1,12 @@
 import React from "react";
 
-export interface LayoutProps {
+export interface DefaultLayoutProps {
   children: React.ReactNode;
 }
 
-const Layout: React.FunctionComponent<LayoutProps> = ({
+const DefaultLayout: React.FunctionComponent<DefaultLayoutProps> = ({
   ...props
-}: LayoutProps) => {
+}: DefaultLayoutProps) => {
   return (
     <>
       <header>This is header</header>
@@ -16,4 +16,4 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
   );
 };
 
-export default Layout;
+export default DefaultLayout;

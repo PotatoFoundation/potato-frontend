@@ -1,12 +1,10 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import DefaultLayout from "../../layouts/default";
 import styles from "../../styles/Home.module.css";
-import Layout from "../_layout/_layout";
 
 const Swap: NextPage = () => {
   return (
-    <Layout>
+    <DefaultLayout>
       <h1>This is page for Swap</h1>
 
       <div className={styles.grid}>
@@ -36,7 +34,7 @@ const Swap: NextPage = () => {
           <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
         </a>
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 };
 
