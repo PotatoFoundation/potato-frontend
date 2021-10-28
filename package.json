@@ -1,5 +1,5 @@
 {
-  "name": "durian-frontend",
+  "name": "potato-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "foundation-sites": "^6.7.3",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
